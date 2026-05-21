@@ -1,9 +1,11 @@
 # API Test Automation Framework
 
+![API Test Suite](https://github.com/nguwinv/api-test-automation-framework/actions/workflows/test.yml/badge.svg)
+
 A pytest-based API test suite for the OpenWeather API, with CI/CD via GitHub Actions.
 
 ## Tech Stack
-- Python, pytest, requests, Pydantic, pytest-html
+- Python, pytest, requests, Pydantic, pytest-html, GitHub Actions
 
 ## Test Coverage
 | Suite | What it tests |
@@ -25,9 +27,13 @@ A pytest-based API test suite for the OpenWeather API, with CI/CD via GitHub Act
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env  # add your API key
+cp .env.example .env  # add your OpenWeather API key
 pytest -v
 ```
 
 ## CI/CD
 Tests run automatically on every push via GitHub Actions.
+
+## Screenshots
+### pytest-html Test Report
+![Test Report](docs/report.png)
