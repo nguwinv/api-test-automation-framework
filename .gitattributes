@@ -1,0 +1,4 @@
+# Tell GitHub to ignore these when detecting repo language
+reports/*.html linguist-generated=true
+docs/*.png linguist-documentation=true
+README.md linguist-documentation=true
