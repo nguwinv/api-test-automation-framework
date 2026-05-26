@@ -1,6 +1,6 @@
 # API Test Automation Framework
 
-![API Test Suite](https://github.com/nguwinv/api-test-automation-framework/actions/workflows/test.yml/badge.svg)
+![API Test Suite](https://github.com/nguwinv/api-test-automation-framework/actions/workflows/test.yml)
 
 A pytest-based API test suite for the OpenWeather API, with CI/CD via GitHub Actions.
 
